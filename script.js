@@ -11,6 +11,24 @@ const changeContainer =()=>{
 }
 changeContainer()
 
+ changeBg()
+let a=document.body.firstElementChild
+
+const changeContainer =()=>{
+  a.nextElementSibling.style.background="red"
+  a.nextElementSibling.style.color="white"
+}
+changeContainer()
+
+ changeBg()
+let a=document.body.firstElementChild
+
+const changeContainer =()=>{
+  a.nextElementSibling.style.background="red"
+  a.nextElementSibling.style.color="white"
+}
+changeContainer()
+
 let b=document.body
 console.log("first child of body is:", b.firstChild)
 console.log("first element child of body is:", b.firstElementChild)
